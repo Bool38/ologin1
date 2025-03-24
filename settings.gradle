@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT) // Allows repositories in both settings.gradle & build.gradle
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Osignup"
+include ':app'
